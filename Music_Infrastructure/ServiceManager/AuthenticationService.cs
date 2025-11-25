@@ -15,15 +15,34 @@ namespace Music_Infrastructure.Services
         {
             _userManager = userManager;
         }
-      public async Task<bool> Validate_UserNameAsync(RegisterRequestDto registerRequestDto)
+        public async Task<bool> Validate_UserNameAsync(RegisterRequestDto registerRequestDto)
         {
-            var userCheck = await _userManager.FindByEmailAsync(registerRequestDto.Email);
-           return userCheck !=null ;
+            var userCheck = await _userManager.FindByNameAsync(registerRequestDto.UserName);
+            return userCheck != null;
+        }
+        public async Task<bool> Validate_EmailAsync(RegisterRequestDto registerRequestDto)
+        {
+            var emailCheck = await _userManager.FindByEmailAsync(registerRequestDto.Email);
+            return emailCheck != null;
+        }
+        public async Task<string> RegisterAsync(RegisterRequestDto registerRequestDto)
+        {
+            var newUser = new Users
+            {
+                UserName = registerRequestDto.UserName,
+                Email = registerRequestDto.Email,
+            };
+            var addUser = await _userManager.CreateAsync(newUser, registerRequestDto.Password);
+            if (!addUser.Succeeded)
+            {
+                var errors = string.Join(";", addUser.Errors.Select(e => e.Description));
+                return $"Register failed:{errors}";
+            }
+
+            return "Register Success";
+
         }
 
-        public async Task<string> RegisterAsync(RegisterRequestDto registerRequestDto )
-        {
-            return "";
-        }
+
     }
 }

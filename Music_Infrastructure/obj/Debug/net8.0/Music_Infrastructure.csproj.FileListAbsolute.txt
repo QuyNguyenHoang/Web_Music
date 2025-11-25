@@ -1,9 +1,3 @@
-D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.csproj.AssemblyReference.cache
-D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.AssemblyInfoInputs.cache
-D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.AssemblyInfo.cs
-D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.csproj.CoreCompileInputs.cache
-D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.sourcelink.json
 D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Infrastructure.deps.json
 D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Infrastructure.runtimeconfig.json
 D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Infrastructure.dll
@@ -12,6 +6,12 @@ D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Application.dll
 D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Domain.dll
 D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Domain.pdb
 D:\Music_Backend\Music_Infrastructure\bin\Debug\net8.0\Music_Application.pdb
+D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.csproj.AssemblyReference.cache
+D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.AssemblyInfoInputs.cache
+D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.AssemblyInfo.cs
+D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.csproj.CoreCompileInputs.cache
+D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.sourcelink.json
 D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_In.36B7AAA4.Up2Date
 D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\Music_Infrastructure.dll
 D:\Music_Backend\Music_Infrastructure\obj\Debug\net8.0\refint\Music_Infrastructure.dll

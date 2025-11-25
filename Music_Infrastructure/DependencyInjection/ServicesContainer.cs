@@ -30,14 +30,18 @@ namespace Music_Infrastructure.DependencyInjection
             // Đăng ký Identity (dùng AddIdentityCore cho API minimal)
             services.AddIdentityCore<Users>(options =>
             {
-                options.SignIn.RequireConfirmedEmail = false; // Không bắt email xác nhận
+                options.SignIn.RequireConfirmedEmail = false; 
             })
             .AddRoles<IdentityRole>()                          // Role support
             .AddRoleManager<RoleManager<IdentityRole>>()       // RoleManager
             .AddUserManager<UserManager<Users>>()             // UserManager
             .AddEntityFrameworkStores<ApplicationDbContext>() ;// EF Core DbContext
 
-            services.AddScoped<IAuthentication , AuthenticationService>() ;
+
+            //Dang ky service
+            services.AddScoped<IAuthentication, AuthenticationService>();
+
+
             return services;
         }
     }

@@ -1,3 +1,11 @@
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.csproj.AssemblyReference.cache
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.GeneratedMSBuildEditorConfig.editorconfig
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.AssemblyInfoInputs.cache
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.AssemblyInfo.cs
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.csproj.CoreCompileInputs.cache
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.MvcApplicationPartsAssemblyInfo.cs
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.MvcApplicationPartsAssemblyInfo.cache
+D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.sourcelink.json
 D:\Music_Backend\Web_Music\bin\Debug\net8.0\appsettings.Development.json
 D:\Music_Backend\Web_Music\bin\Debug\net8.0\appsettings.json
 D:\Music_Backend\Web_Music\bin\Debug\net8.0\Web_Music.exe
@@ -136,14 +144,6 @@ D:\Music_Backend\Web_Music\bin\Debug\net8.0\Music_Infrastructure.dll
 D:\Music_Backend\Web_Music\bin\Debug\net8.0\Music_Application.pdb
 D:\Music_Backend\Web_Music\bin\Debug\net8.0\Music_Infrastructure.pdb
 D:\Music_Backend\Web_Music\bin\Debug\net8.0\Music_Domain.pdb
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.csproj.AssemblyReference.cache
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.GeneratedMSBuildEditorConfig.editorconfig
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.AssemblyInfoInputs.cache
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.AssemblyInfo.cs
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.csproj.CoreCompileInputs.cache
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.MvcApplicationPartsAssemblyInfo.cs
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.MvcApplicationPartsAssemblyInfo.cache
-D:\Music_Backend\Web_Music\obj\Debug\net8.0\Web_Music.sourcelink.json
 D:\Music_Backend\Web_Music\obj\Debug\net8.0\staticwebassets.build.json
 D:\Music_Backend\Web_Music\obj\Debug\net8.0\staticwebassets.development.json
 D:\Music_Backend\Web_Music\obj\Debug\net8.0\staticwebassets\msbuild.Web_Music.Microsoft.AspNetCore.StaticWebAssets.props
