@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Music_Application.Controllers.AuthenticationController",
+    "Method": "ValidateUserName",
+    "RelativePath": "api/Authentication/validate-username",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "Music_Application.DTOs.Authentication.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,13 @@
+D:\Music_Backend\Music_Domain\bin\Debug\net8.0\Music_Domain.deps.json
+D:\Music_Backend\Music_Domain\bin\Debug\net8.0\Music_Domain.dll
+D:\Music_Backend\Music_Domain\bin\Debug\net8.0\Music_Domain.pdb
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.csproj.AssemblyReference.cache
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.AssemblyInfoInputs.cache
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.AssemblyInfo.cs
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.csproj.CoreCompileInputs.cache
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.sourcelink.json
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.dll
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\refint\Music_Domain.dll
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\Music_Domain.pdb
+D:\Music_Backend\Music_Domain\obj\Debug\net8.0\ref\Music_Domain.dll
