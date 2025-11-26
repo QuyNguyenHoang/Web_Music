@@ -11,9 +11,11 @@ namespace Music_Infrastructure.Services
     public class AuthenticationService : IAuthentication
     {
         private readonly UserManager<Users> _userManager;
-        public AuthenticationService(UserManager<Users> userManager)
+        private readonly EmailSender _emailSender;
+        public AuthenticationService(UserManager<Users> userManager, EmailSender emailSender)
         {
             _userManager = userManager;
+            _emailSender = emailSender;
         }
         public async Task<bool> Validate_UserNameAsync(RegisterRequestDto registerRequestDto)
         {
@@ -39,10 +41,23 @@ namespace Music_Infrastructure.Services
                 return $"Register failed:{errors}";
             }
 
-            return "Register Success";
 
+            //Create token xac nhan email
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(newUser);
+            var confirmationUrl =  "http://localhost:5042/api/Authentication/confirmemail";
+            var confirmationLink = $"{confirmationUrl}?userId={newUser.Id}&token={Uri.EscapeDataString(token)}";
+            // Gửi email xác nhận
+            await _emailSender.SendEmailAsync(new SendEmailDto
+            {
+                ToEmail = newUser.Email,
+                Subject = "Confirm your email",
+                Message = $"Click <a href='{confirmationLink}'>here</a> to confirm your account."
+            });
+
+            return "Register Success. Please check your email to confirm your account.";
         }
 
-
     }
+
+
 }

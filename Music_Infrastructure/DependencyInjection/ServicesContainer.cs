@@ -7,6 +7,8 @@ using Music_Infrastructure.Data;
 using Music_Domain.Entities;
 using Music_Application.Interfaces;
 using Music_Infrastructure.Services;
+using Music_Application.DTOs.Authentication;
+
 
 
 namespace Music_Infrastructure.DependencyInjection
@@ -27,20 +29,25 @@ namespace Music_Infrastructure.DependencyInjection
             });
 
 
-            // Đăng ký Identity (dùng AddIdentityCore cho API minimal)
-            services.AddIdentityCore<Users>(options =>
-            {
-                options.SignIn.RequireConfirmedEmail = false; 
-            })
-            .AddRoles<IdentityRole>()                          // Role support
-            .AddRoleManager<RoleManager<IdentityRole>>()       // RoleManager
-            .AddUserManager<UserManager<Users>>()             // UserManager
-            .AddEntityFrameworkStores<ApplicationDbContext>() ;// EF Core DbContext
-
-
+            // // Đăng ký Identity (API minimal)
+            // services.AddIdentityCore<Users>(options =>
+            // {
+            //     options.SignIn.RequireConfirmedEmail = true;
+            // })
+            //     .AddRoles<IdentityRole>()
+            //     .AddRoleManager<RoleManager<IdentityRole>>()
+            //     .AddUserManager<UserManager<Users>>()
+            //     .AddEntityFrameworkStores<ApplicationDbContext>()
+            //     .AddDefaultTokenProviders();
+         
             //Dang ky service
             services.AddScoped<IAuthentication, AuthenticationService>();
 
+            // Bind EmailSettings
+            services.Configure<EmailSettings>(options => config.GetSection("EmailSettings").Bind(options));
+
+            // Đăng ký EmailSender
+            services.AddSingleton<EmailSender>();
 
             return services;
         }

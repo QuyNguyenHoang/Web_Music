@@ -14,5 +14,6 @@ namespace Music_Infrastructure.Data
         base.OnModelCreating(builder);
         builder.Entity<Users>().ToTable("User");
     }
+       
     }
 }

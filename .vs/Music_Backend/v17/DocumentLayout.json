@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Music_Infrastructure\\DependencyInjection\\ServicesContainer.cs",
               "ToolTip": "D:\\Music_Backend\\Music_Infrastructure\\DependencyInjection\\ServicesContainer.cs",
               "RelativeToolTip": "Music_Infrastructure\\DependencyInjection\\ServicesContainer.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAvwCcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T11:21:49.866Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Web_Music\\Controllers\\Authentication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T11:21:32.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T11:21:32.525Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Web_Music\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T11:16:51.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T11:16:51.983Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Music_Infrastructure\\ServiceManager\\AuthenticationService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T11:19:48.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T11:19:48.207Z"
             }
           ]
         }
